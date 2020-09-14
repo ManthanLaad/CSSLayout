@@ -8,30 +8,42 @@
     <title>Project</title>
   </head>
   <body>
-    <div class="box1">
-      <h2>Box 1</h2>
+    <header>
+      <nav>
+        <h1 id="logo">Logo</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header>
+    <section class="hero-section">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
-        magni nisi sit adipisci repellat. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit.
+        <h2>SPEEDY'S</h2>
+        <h3>Sandwich Bar & Cafe</h3>
       </p>
-    </div>
-    <div class="box2">
-      <h2>Box 2</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quaerat
-        temporibus quibusdam corporis neque obcaecati, consectetur a amet quod
-        voluptates!
-      </p>
-    </div>
-    <div class="clear"></div>
-    <div class="box3">
-      <h2>Box 3</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deserunt
-        cupiditate quia totam fugit quasi, itaque, ex quos quibusdam quaerat
-        excepturi corrupti explicabo at sed.
-      </p>
-    </div>
+      <button>Order Now!</button>
+    </section>
+    <section class="form-section">
+      <header>
+        <h2>Contact Us</h2>
+      </header>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email">Email-ID:</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="message">Message:</label>
+        <textarea
+          name="message"
+          id="meassage-input"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
   </body>
 </html>
